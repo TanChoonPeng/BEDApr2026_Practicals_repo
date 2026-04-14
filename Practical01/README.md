@@ -13,19 +13,19 @@ You are required to manage your practical work using your personal GitHub reposi
 Create a GitHub repository named as follows:
 
 ```
-BED2025Apr_Practicals_P<your_Class>_<your_StudentID>
+BED2026Apr_Practicals_P<your_Class>_<your_StudentID>
 ```
 
 Example:
 
 ```
-BED2025Apr_Practicals_P01_s12345678
+BED2026Apr_Practicals_P01_s12345678
 ```
 
 ### ✅ GitHub Setup Instructions
 
 1. Create the repository in your GitHub account and set it to **private**.
-2. Add your tutor’s email (found in **BrightSpace > BED > Our Tutors**) with “Admin” access rights.
+2. Add your tutor’s email (found in **BrightSpace > BED > Our Tutors**) as a“Collaborator” to your repository.
 3. Push your work to the repository regularly and on time.
 
 ---
