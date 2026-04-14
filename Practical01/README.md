@@ -25,7 +25,7 @@ BED2026Apr_Practicals_P01_s12345678
 ### ✅ GitHub Setup Instructions
 
 1. Create the repository in your GitHub account and set it to **private**.
-2. Add your tutor’s email (found in **BrightSpace > BED > Our Tutors**) as a“Collaborator” to your repository.
+2. Add your tutor’s email (found in **BrightSpace > BED > Our Tutors**) with “Admin” access rights.
 3. Push your work to the repository regularly and on time.
 
 ---
