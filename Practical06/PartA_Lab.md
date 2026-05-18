@@ -87,9 +87,21 @@ This practical focuses on building user functionalities into your existing books
       Here's the SQL script to insert sample data:
 
       ```sql
+      -- Recreate the Books table to start Book ID at 1
+      IF EXISTS (SELECT * FROM sysobjects 
+                 WHERE id = object_id('dbo.Books') and sysstat & 0xf = 3)
+         DROP TABLE dbo.Books
+      GO
+      CREATE TABLE Books (
+        id INT IDENTITY(1,1) PRIMARY KEY,
+        title VARCHAR(50) NOT NULL UNIQUE, -- Title is required and unique (cannot be NULL)
+        author VARCHAR(50) NOT NULL -- Author is required (cannot be NULL)
+      );
       -- Insert sample books
       INSERT INTO Books (title, author)
       VALUES
+        ('The Lord of the Rings', 'J.R.R. Tolkien'),
+        ('Pride and Prejudice', 'Jane Austen');
         ('To Kill a Mockingbird', 'Harper Lee'),
         ('The Hitchhiker''s Guide to the Galaxy', 'Douglas Adams'),
         ('Dune', 'Frank Herbert'),
