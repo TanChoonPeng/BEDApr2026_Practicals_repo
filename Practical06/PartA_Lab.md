@@ -90,8 +90,6 @@ This practical focuses on building user functionalities into your existing books
       -- Insert sample books
       INSERT INTO Books (title, author)
       VALUES
-        ('The Lord of the Rings', 'J.R.R. Tolkien'),
-        ('Pride and Prejudice', 'Jane Austen');
         ('To Kill a Mockingbird', 'Harper Lee'),
         ('The Hitchhiker''s Guide to the Galaxy', 'Douglas Adams'),
         ('Dune', 'Frank Herbert'),
