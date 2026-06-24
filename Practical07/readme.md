@@ -45,7 +45,7 @@ Here are some resources that might be helpful for the next steps:
 
 **Deliverables & Assessment:**
 
-For detailed information on the deliverables and assessment for this practical, please refer to the document: **deliverables.md**. This document outlines the specific requirements for the GitHub repository, code & documentation, team quiz, and BED assignment application & presentation.
+For detailed information on the deliverables and assessment for this practical, please refer to the document: **deliverables.md**. This document outlines the specific requirements for the GitHub repository, code & documentation.
 
 **We're Here to Support You:**
 
